@@ -17,7 +17,7 @@ The file starts with a fixed 16 bytes header
 Right after the header the data & field definitions starts.
 Right after every field the next 4 bytes (hex) define the length of the fieldname followed by the fieldname.
 Type  How to read  
-------- -----------------------------
+Markup :  - - - -
 0A     text data length (hex) in next 1 caracter field content in next "length" caracters.
 01   certificate (multiline) length (hex) in next 4 caracters field content in next "length" caracters.
 06   integer field. data in hex in next 3 bytes.
@@ -29,7 +29,7 @@ T  L
 y  e
 p  n
 e  g                    Veldnaam start met [lengte veldnaam][00 00 00][veldnaam]
------- -----------------------------------------------------   -------------- ----------------------------------------------------------
+Markup :  - - - -
 0A 03 tcp             (3 caracters)    08 00 00 00 protocol
 0A 03 MD5             (3 caracters)    18 00 00 00 authentication_algorithm 
 01 5D 13 00 00 Certificate: ...    (4957 tekens)  0B 00 00 00  certificate
@@ -44,7 +44,7 @@ e  g                    Veldnaam start met [lengte veldnaam][00 00 00][veldnaam]
 06 AA 04 00 (-> 1194)             0B 00 00 00 server_port
 0A 0D 11.11.111.111              0E 00 00 00 server_address
 Veldtypes
------------------------------------------------------------------------------------------------------------------------------------------
+Markup :  - - - -
 Type 0A -> Length in 1 Byte, Followed By nBytes data
 Type 01 -> Field length in next 4 Bytes, Followed By nBytes data
 Type 06 -> Field data (int) in next 3 Bytes

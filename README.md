@@ -4,7 +4,7 @@ This is a new attempt to rewrite .apc files to .ovpn
 to create an .ovpn file you need to have the template.ovpn in your directory
 
 If in future .apc files more fields/keys are added the program will list them.
-fields in template.ovpn are presented as {fieldname}.
+Fields in template.ovpn are presented as {fieldname}.
 The script will replace them with the value of the responding keys it found. 
 
 
@@ -30,6 +30,11 @@ y  e
 p  n
 e  g                    Veldnaam start met [lengte veldnaam][00 00 00][veldnaam]
 Markup :  - - - -
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+
 0A 03 tcp             (3 caracters)    08 00 00 00 protocol
 0A 03 MD5             (3 caracters)    18 00 00 00 authentication_algorithm 
 01 5D 13 00 00 Certificate: ...    (4957 tekens)  0B 00 00 00  certificate

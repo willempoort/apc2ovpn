@@ -22,14 +22,15 @@ Right after every field the next 4 bytes (hex) define the length of the fieldnam
 **Header** 16 bytes Hex:
 04 07 04 31 32 33 34 04 04 04 08 03 0D 00 00 00    (31 32 33 34 is readable as 1234)
 
-Next after header
+Next after header <br>
+
 Record type | Data field length | Data field content | Fieldname length | Fieldname
----- | ---- | ---- | ---- | ---- | ----
+---- | ---- | ---- | ---- | ---- 
 
 ---
 
 **Field Hex Code** | **Field Type**
----- | ---- | 
+---- | ----
 **0A | text** data length (hex) in next 1 caracter field content in next "length" caracters.
 **01 | certificate** (multiline) length (hex) in next 4 caracters field content in next "length" caracters.
 **06 | integer** field. data in hex in next 3 bytes.

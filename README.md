@@ -20,7 +20,7 @@ Right after every field the next 4 bytes (hex) define the length of the fieldnam
 # Format .apc file
 ---
 **Header** 16 bytes Hex:
-**04 07 04 31 32 33 34 04 04 04 08 03 0D 00 00 00    (31 32 33 34 is readable as 1234)**
+04 07 04 31 32 33 34 04 04 04 08 03 0D 00 00 00    (31 32 33 34 is readable as 1234)
 
 Next after header
 Record type | Data field length | Data field content | Fieldname length | Fieldname
@@ -33,7 +33,7 @@ Record type | Data field length | Data field content | Fieldname length | Fieldn
 
 ---
 
-**Type  | Hex Length bytes | Data | Hex Length bytes | Fieldname**
+**Type**  | **Hex Length bytes** | **Data** | **Hex Length bytes** | **Fieldname**
 ------------- | ------------- | ------------- | ------------- | -------------
 0A (text) | Length 1 Byte (hex)|nBytes data | Length in 4 Bytes (hex)| Fieldname in nBytes
 01 (cert) | Length 4 Bytes (hex) | nBytes data | Length in 4 Bytes (hex)| Fieldname in nBytes

@@ -31,11 +31,11 @@ Record type | Data field length | Data field content | Fieldname length | Fieldn
 
 **Record Type Hex Code** | **Field Type**
 ---- | ----
-**0A | text** data length (hex) in next 1 caracter field content in next "length" caracters.
-**01 | certificate** (multiline) length (hex) in next 4 caracters field content in next "length" caracters.
-**06 | integer** field. data in hex in next 3 bytes.
-**08 | Boolean** ?? not sure what hex 81 stands for.
-**17 | Distinquised name** length (hex) in next 1 caracter field content in next "length" caracters.
+**0A** | **text** data length (hex) in next 1 caracter field content in next "length" caracters.
+**01** | **certificate** (multiline) length (hex) in next 4 caracters field content in next "length" caracters.
+**06** | **integer** field. data in hex in next 3 bytes.
+**08** | **Boolean** ?? not sure what hex 81 stands for.
+**17** | **Distinquised name** length (hex) in next 1 caracter field content in next "length" caracters.
 
 ---
 

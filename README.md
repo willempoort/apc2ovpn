@@ -29,7 +29,7 @@ Record type | Data field length | Data field content | Fieldname length | Fieldn
 
 ---
 
-**Field Hex Code** | **Field Type**
+**Record Type Hex Code** | **Field Type**
 ---- | ----
 **0A | text** data length (hex) in next 1 caracter field content in next "length" caracters.
 **01 | certificate** (multiline) length (hex) in next 4 caracters field content in next "length" caracters.

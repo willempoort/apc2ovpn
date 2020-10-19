@@ -44,7 +44,7 @@ Record type | Data field length | Data field content | Fieldname length | Fieldn
 0A (text) | Length 1 Byte (hex)|nBytes data | Length in 4 Bytes (hex)| Fieldname in nBytes
 01 (cert) | Length 4 Bytes (hex) | nBytes data | Length in 4 Bytes (hex)| Fieldname in nBytes
 06 (int) |  n/a | Field data in next 3 Bytes (hex -> int) | Length in 4 Bytes (hex)| Fieldname in nBytes
-08 (Boolean ?) | n/a |Field data (hex -> int ?) in next 1 Byte | Length in 4 Bytes (hex)| Fieldname in nBytes
+08 (Boolean ?) | n/a |Field data in next 1 Byte (hex -> int ?) | Length in 4 Bytes (hex)| Fieldname in nBytes
 17 (dn) | Length 1 Byte (hex)|nBytes data | Length in 4 Bytes (hex)| Fieldname in nBytes
 
 # How to run

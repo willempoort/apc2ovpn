@@ -58,4 +58,4 @@ Run the programm as follows:<br>
 (Replace your-own with the right filenames ;))<br>
 <br>
 The script will create the **.ovpn** file and an **.ovpn.auth** file.<br>
-The **.ovpn.auth** file contains the username and password extracted from yout **.apc** file
+The **.ovpn.auth** file contains the username and password extracted from your **.apc** file

@@ -18,7 +18,7 @@ Right after the header the data & field definitions starts.
 Right after every field the next 4 bytes (hex) define the length of the fieldname followed by the fieldname.
 
 # Format .apc file
-Markup :  - - - -
+---
 **Header** 16 bytes Hex:
 **04 07 04 31 32 33 34 04 04 04 08 03 0D 00 00 00    (31 32 33 34 is readable as 1234)**
 
@@ -31,7 +31,7 @@ Record type | Data field length | Data field content | Fieldname length | Fieldn
 **08   Boolean** ?? not sure what hex 81 stands for.
 **17   Distinquised name** length (hex) in next 1 caracter field content in next "length" caracters.
 
-Markup :  - - - -
+---
 
 **Type  | Hex Length bytes | Data | Hex Length bytes | Fieldname**
 ------------- | ------------- | ------------- | ------------- | -------------
@@ -41,5 +41,5 @@ Markup :  - - - -
 08 (Boolean ?) | n/a |Field data (int) in next 1 Byte | Length in 4 Bytes (hex)| Fieldname in nBytes
 17 (dn) | Length 1 Byte (hex)|nBytes data | Length in 4 Bytes (hex)| Fieldname in nBytes
 
-Markup :  - - - -
+---
 

@@ -24,7 +24,12 @@ Right after every field the next 4 bytes (hex) define the length of the fieldnam
 
 Next after header
 Record type | Data field length | Data field content | Fieldname length | Fieldname
+---- | ---- | ---- | ---- | ---- | ----
+
+---
+
 **Field Hex Code** | **Field Type**
+---- | ---- | 
 **0A | text** data length (hex) in next 1 caracter field content in next "length" caracters.
 **01 | certificate** (multiline) length (hex) in next 4 caracters field content in next "length" caracters.
 **06 | integer** field. data in hex in next 3 bytes.
